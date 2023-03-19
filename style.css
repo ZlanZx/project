@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header, 
+section#profil, 
+section#aktivitas{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+}
+
+ img{
+    width: 500px;
+    
+}
+fix-container{
+    clear: both;
+}
+
+header h1{
+    font-size: 40px;
+    width: 467px;
+    border-bottom: 5px solid black;
+     
+}
+
+body section#profil h1 {
+    font-size: 25px;
+    width: 120px;
+    border-bottom: 5px solid black;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+}
+body section#aktivitas h1 {
+    font-size: 25px;
+    width: 140px;
+    border-bottom: 5px solid black;
+    background-color: gray;
+    color: white;
+}
+body section#profil img {
+    width: 150px;
+    text-align: left;
+    float: left;
+    
+    
+}
+body #deskripsi-profil  {
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+body #deskripsi-aktifitas{
+    font-size: 22px;
+}
